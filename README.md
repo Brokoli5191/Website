@@ -41,7 +41,7 @@
     <a href="https://github.com/Brokoli5191/Website"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://brokoli5191.github.io">View Demo</a>
+    <a href="https://brokoli5191.github.io">View old Demo</a>
     ·
     <a href="https://github.com/Brokoli5191/Website/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I created this Website just for fun :smile:
+I created this Website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Brokoli5191/brokoli5191.github.io.git
+   git clone https://github.com/Brokoli5191/Website.git
    ```
 2. Open the index.html file in your browser of choice
 
