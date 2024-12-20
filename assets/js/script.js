@@ -1,5 +1,30 @@
 'use strict';
 
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleSwitch = document.getElementById('theme-toggle');
+ 
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    document.documentElement.classList.add('dark-mode');
+    document.documentElement.classList.remove('light-mode');
+    toggleSwitch.checked = true;
+  } else {
+    document.documentElement.classList.add('light-mode');
+    document.documentElement.classList.remove('dark-mode');
+    toggleSwitch.checked = false;
+  }
+
+  toggleSwitch.addEventListener('change', () => {
+    if (toggleSwitch.checked) {
+      document.documentElement.classList.add('dark-mode');
+      document.documentElement.classList.remove('light-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      document.documentElement.classList.add('light-mode');
+      document.documentElement.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+});
 
 
 // element toggle function
