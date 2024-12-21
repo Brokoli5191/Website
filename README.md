@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Brokoli5191 - Brokoli5191@gmx.de
 
-Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://github.com/Brokoli5191/Website)
+Project Link: [https://github.com/Brokoli5191/Website](https://github.com/Brokoli5191/Website)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
