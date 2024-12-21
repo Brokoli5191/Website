@@ -12,7 +12,11 @@
   <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
   <title>Roland Steinbauer</title>
 
-
+  <script>
+    if (localStorage.getItem('darkMode') !== 'enabled') {
+      document.documentElement.classList.add('light-mode');
+    }
+  </script>
 
   <!--
     - favicon
@@ -191,7 +195,7 @@
           </a>
 
           <label class="switch">
-            <input id="theme-toggle" type="checkbox" />
+            <input id="theme-toggle" type="checkbox" checked />
             <div class="slider round">
               <div class="sun-moon">
                 <svg viewBox="0 0 100 100" class="moon-dot" id="moon-dot-1">
