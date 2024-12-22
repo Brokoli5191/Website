@@ -420,10 +420,11 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-5);
+  font-size: var(--fs-4);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: -10px;
   transition: background-color 0.3s ease-in-out, 
               color 0.3s ease-in-out,
               border-color 0.3s ease-in-out,
@@ -1753,8 +1754,6 @@ main {
 
 .avatar-box img { width: 80px; }
 
-.info-content .name { margin-bottom: 10px; }
-
 .info-content .title { padding: 3px 12px; }
 
 .info_more-btn {
@@ -1989,8 +1988,6 @@ textarea.form-input { margin-bottom: 20px; }
   .avatar-box { border-radius: 25px; }
 
   .avatar-box img { width: 100px; }
-
-  .info-content .name { margin-bottom: 12px; }
 
   .info-content .title { padding: 4px 15px; }
 
@@ -2239,8 +2236,6 @@ textarea.form-input { margin-bottom: 20px; }
   .avatar-box { border-radius: 30px; }
 
   .avatar-box img { width: 120px; }
-
-  .info-content .name { margin-bottom: 15px; }
 
   .info-content .title { padding: 5px 18px; }
 
