@@ -43,7 +43,7 @@
   --onyx: #9AA6B2;
   --eerie-black-1: #ffffff;
   --eerie-black-2: #ffffff;
-  --smoky-black: #ffffff;
+  --smoky-black: #eeecec;
   --white-1: #000000;
   --white-2: #000000;
   --orange-yellow-crayola: #496bd9a1;
@@ -203,6 +203,11 @@ body {
               border-color 0.3s ease-in-out,
               box-shadow 0.3s ease-in-out;
 }
+
+a.contact-link:hover {
+  color: var(--hover);
+}
+
 .sidebar,
 article {
   width: 20%;
