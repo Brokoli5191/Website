@@ -12,10 +12,18 @@
   <title>Roland Steinbauer | Mathematics</title>
 
   <script>
-    if (localStorage.getItem('darkMode') !== 'enabled') {
-      document.documentElement.classList.add('light-mode');
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
     }
-  </script>
+    
+    if (getCookie("darkMode") === 'enabled') {
+        document.documentElement.classList.add('dark-mode');
+    } else {
+        document.documentElement.classList.add('light-mode');
+    }
+    </script>
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
