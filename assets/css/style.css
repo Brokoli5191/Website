@@ -917,6 +917,7 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  maring-top: 0px;
 }
 
 
