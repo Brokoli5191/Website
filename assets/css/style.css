@@ -17,7 +17,7 @@
   --light-gray-70: #d6d6d6b3;
   --bittersweet-shimmer: #b84c4c;
   --background-navbar: #2b2b2cbf;
-
+  --text-gradient-yellow: #ffdb70;
 }
 
 .dark-mode {
@@ -35,7 +35,7 @@
   --bittersweet-shimmer: #b84c4c;
   --background-navbar: #2b2b2cbf;
   --hover: #ceb15a;
-
+  --text-gradient-yellow: #ffdb70;
 }
 
 .light-mode {
@@ -53,7 +53,7 @@
   --bittersweet-shimmer: #d69999;
   --background-navbar: #ffffff;
   --hover: #4867ccc7;
-
+  --text-gradient-yellow: #4e74ee;
 }
 
 :root{
@@ -116,16 +116,6 @@
   /*margin: 0;*/
   padding: 0;
   box-sizing: border-box;
-}
-
-i {
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
-}
-
-p {
   transition: background-color 0.3s ease-in-out, 
               color 0.3s ease-in-out,
               border-color 0.3s ease-in-out,
@@ -177,11 +167,7 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { 
-  background: var(--smoky-black); 
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
+  background: var(--smoky-black);
 }
 
 footer {
@@ -194,20 +180,6 @@ footer {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
-.title {
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
-}
-
-.contact-link {
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
-}
 
 a.contact-link:hover {
   color: var(--hover);
@@ -261,20 +233,12 @@ article {
   background: var(--eerie-black-1);
   border-radius: inherit;
   z-index: -1;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { 
-  display: none; 
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
+  display: none;
 }
 
 article.active {
@@ -300,10 +264,6 @@ color: var(--orange-yellow-crayola);
 .h2 { 
   font-size: var(--fs-1);
   margin-top: 0px;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .h3 { font-size: var(--fs-2); }
@@ -370,10 +330,6 @@ color: var(--orange-yellow-crayola);
 
 .navbar-active { 
   color: var(--orange-yellow-crayola); 
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 
@@ -402,10 +358,6 @@ main {
   margin-bottom: 15px;
   max-height: 112px;
   overflow: hidden;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .sidebar.active { max-height: 405px; }
@@ -430,10 +382,6 @@ main {
   letter-spacing: -0.25px;
   margin-bottom: 0px;
   margin-top: -10px;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .info-content .title {
@@ -456,10 +404,6 @@ main {
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
   z-index: 1;
 }
 
@@ -469,10 +413,6 @@ main {
   inset: 1px;
   border-radius: inherit;
   background: var(--bg-gradient-jet);
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
   z-index: -1;
 }
 
@@ -487,10 +427,6 @@ main {
 .sidebar-info_more {
   opacity: 0;
   visibility: hidden;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .sidebar.active .sidebar-info_more {
@@ -510,10 +446,6 @@ main {
   align-items: center;
   gap: 16px;
   height: 25px;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .contact-info {
@@ -576,10 +508,6 @@ main {
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .navbar-list {
@@ -595,10 +523,6 @@ main {
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
-  transition: background-color 0.3s ease-in-out, 
-              color 0.3s ease-in-out,
-              border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out;
 }
 
 .navbar-link:hover,
